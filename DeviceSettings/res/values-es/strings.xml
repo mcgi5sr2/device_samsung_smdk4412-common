@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Ajustes avanzados</string>
   <string name="defaults_button">Restablecer</string>
+  <string name="kernel_does_not_support">El Kernel no lo soporta</string>
   <string name="category_screen_title">Pantalla</string>
   <string name="screen_colors_title">Colores</string>
   <string name="cabc_title_head">Brillo adaptativo</string>
@@ -61,4 +62,9 @@
   <string name="spen_subcat_title">S-Pen</string>
   <string name="spen_power_save_title_head">Ahorro de energía</string>
   <string name="spen_power_save_summary_head">Desactivar el digitalizador del stylus cuando el S-Pen esté en el dispositivo</string>
+  <string name="touchwake_title">Toque de atención</string>
+  <string name="touchwake_enable_title">Habilitado</string>
+  <string name="touchwake_enable_summary">Despierta el dispositivo, con un toque en la pantalla,  poco después de que se duerma.</string>
+  <string name="touchwake_timeout_title">Tiempo de espera</string>
+  <string name="touchwake_timeout_summary">Tiempo de espera para toque de atención</string>
 </resources>

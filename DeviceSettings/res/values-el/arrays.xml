@@ -16,42 +16,42 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="mdnie_scenario_entries">
-    <item>CyanogenMod (Standard)</item>
-    <item>UI</item>
-    <item>Video</item>
-    <item>Video warm</item>
-    <item>Video kalt</item>
-    <item>Kamera</item>
-    <item>Navigation</item>
-    <item>Galerie</item>
+    <item>CyanogenMod (προεπιλογή)</item>
+    <item>Περιβάλλον [UI]</item>
+    <item>Βίντεο</item>
+    <item>Λειτουργία θερμού βίντεο</item>
+    <item>Λειτουργία ψυχρού βίντεο</item>
+    <item>Κάμερα</item>
+    <item>Πλοήγηση</item>
+    <item>Συλλογή</item>
     <item>VT</item>
   </string-array>
   <string-array name="mdnie_mode_entries">
-    <item>Dynamisch (Standard)</item>
-    <item>Standard</item>
-    <item>Natürlich</item>
-    <item>Film</item>
+    <item>Δυναμική (προεπιλογή)</item>
+    <item>Κανονική</item>
+    <item>Φυσική</item>
+    <item>Ταινία</item>
   </string-array>
   <string-array name="mdnie_negative_entries">
-    <item>Normal</item>
-    <item>Invertiert</item>
+    <item>Κανονικά</item>
+    <item>Ανεστραμμένη</item>
   </string-array>
   <string-array name="touchkey_timeout_entries">
-    <item>Niemals</item>
-    <item>1 Sekunde</item>
-    <item>2 Sekunden</item>
-    <item>3 Sekunden (Standard)</item>
-    <item>4 Sekunden</item>
-    <item>5 Sekunden</item>
-    <item>6 Sekunden</item>
+    <item>Ποτέ</item>
+    <item>1 δευτερόλεπτο</item>
+    <item>2 δευτερόλεπτα</item>
+    <item>3 δευτερόλεπτα (προεπιλογή)</item>
+    <item>4 δευτερόλεπτα</item>
+    <item>5 δευτερόλεπτα</item>
+    <item>6 δευτερόλεπτα</item>
   </string-array>
   <string-array name="led_fade_entries">
-    <item>Blinken</item>
-    <item>Verblassen</item>
+    <item>Αναβοσβήνει</item>
+    <item>Ξεθώριασμα</item>
   </string-array>
   <string-array name="hspa_entries">
-    <item>Nur UMTS</item>
-    <item>Nur HSDPA</item>
+    <item>Μόνο UMTS</item>
+    <item>Μόνο HSDPA</item>
     <item>HSDPA + HSUPA</item>
   </string-array>
 </resources>
