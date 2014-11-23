@@ -22,15 +22,15 @@
   <string name="screen_colors_title">Farben</string>
   <string name="cabc_title_head">CABC</string>
   <string name="mdnie_scenario_title_head">Szenario</string>
-  <string name="mdnie_scenario_summary_head">Wählen Sie das mDNIe Szenario</string>
+  <string name="mdnie_scenario_summary_head">Wählen Sie das mDNIe-Szenario</string>
   <string name="mdnie_mode_title_head">Modus</string>
-  <string name="mdnie_mode_summary_head">Wähle den mDNIe Modus</string>
+  <string name="mdnie_mode_summary_head">Wählen Sie den mDNIe-Modus</string>
   <string name="mdnie_negative_title_head">Negativ Modus</string>
   <string name="mdnie_negative_summary_head">Invertierte Farben ein-/ausschalten</string>
   <string name="led_subcat_title">Benachrichtigungslicht</string>
   <string name="led_fade_title_head">Modus</string>
   <string name="led_fade_summary_head">Wähle zwischen sanftem Verblassen und Blinken</string>
-  <string name="touchkey_subcat_title">Touchkeys</string>
+  <string name="touchkey_subcat_title">Sensortasten</string>
   <string name="touchkey_light_title_head">Beleuchtung</string>
   <string name="touchkey_light_summary_off">Aktiviere Beleuchtung</string>
   <string name="touchkey_light_summary_on">Deaktiviere Beleuchtung</string>
@@ -48,7 +48,7 @@
   <string name="dockaudio_subcat_title">Audio</string>
   <string name="use_dock_audio_title_head">USB-Dock Audio</string>
   <string name="use_dock_audio_summary_head">Passive Audio-Ausgabe des USB-Docks verwenden</string>
-  <string name="incall_earpiece_audio_title_head">Ohrhörer</string>
+  <string name="incall_earpiece_audio_title_head">Headset</string>
   <string name="incall_headphone_audio_title_head">Kopfhörer</string>
   <string name="incall_speaker_audio_title_head">Lautsprecher</string>
   <string name="incall_bt_audio_title_head">BT</string>
@@ -59,6 +59,7 @@
   <string name="audioout_warning">Werte höher als %1$d werden nicht empfohlen</string>
   <string name="spen_subcat_title">S-Pen</string>
   <string name="spen_power_save_title_head">Energiesparmodus</string>
-  <string name="touchwake_title">Touchwake</string>
+  <string name="touchwake_title">Wecken durch Berührung</string>
   <string name="touchwake_enable_title">Aktivieren</string>
+  <string name="touchwake_timeout_title">Zeitabschaltung</string>
 </resources>
