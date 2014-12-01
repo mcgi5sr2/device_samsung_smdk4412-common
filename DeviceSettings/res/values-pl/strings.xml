@@ -16,8 +16,12 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Advanced settings</string>
+  <string name="defaults_button">Przywróć domyślne</string>
+  <string name="kernel_does_not_support">Kernel nie obsługuje</string>
   <string name="category_screen_title">Ekran</string>
   <string name="screen_colors_title">Kolory</string>
+  <string name="cabc_title_head">CABC</string>
+  <string name="cabc_summary_head">Włącz adaptacyjne zarządzanie podświetleniem</string>
   <string name="mdnie_scenario_title_head">Technologia mDNIe</string>
   <string name="mdnie_scenario_summary_head">Ustaw scenariusz mDNIe</string>
   <string name="mdnie_mode_title_head">Tryb</string>
@@ -33,10 +37,34 @@
   <string name="touchkey_light_summary_on">Wyłącz podświetlenie</string>
   <string name="touchkey_timeout_title_head">Opóźnienie podświetlenia</string>
   <string name="touchkey_timeout_summary_head">Ustaw opóźnienie dla podświetlenia</string>
+  <string name="category_haptic_title">Wibracja dotykowa</string>
+  <string name="vibrator_title">Wibracje</string>
+  <string name="vibrator_tuning_title">Siła wibracji</string>
+  <string name="vibrator_tuning_summary_head">Dostosuj intensywności wibracji</string>
+  <string name="vibrator_warning">Wartości powyżej %1$d nie są zalecane</string>
   <string name="category_radio_title">Radio</string>
   <string name="hspa_title_head">HSPA</string>
   <string name="hspa_summary_head">Aktywuj HSDPA/HSUPA</string>
+  <string name="category_audio_title">Dźwięki</string>
   <string name="dockaudio_subcat_title">Dźwięk w stacji dokującej</string>
   <string name="use_dock_audio_title_head">Użyj stacji dokującej</string>
   <string name="use_dock_audio_summary_head">Użyj pasywnego wyjścia audio w stacji dokującej</string>
+  <string name="incallaudio_subcat_title">Głośność rozmów</string>
+  <string name="incall_earpiece_audio_title_head">Słuchawka</string>
+  <string name="incall_headphone_audio_title_head">Zestaw słuchawkowy</string>
+  <string name="incall_speaker_audio_title_head">Głośnik</string>
+  <string name="incall_bt_audio_title_head">BT</string>
+  <string name="incall_warning">Wartości powyżej %1$d nie są zalecane</string>
+  <string name="audioout_subcat_title">Głośność dźwięku podczas transmisji strumieniowej</string>
+  <string name="audioout_headphone_audio_title_head">Słuchawki</string>
+  <string name="audioout_speaker_audio_title_head">Głośnik</string>
+  <string name="audioout_warning">Wartości powyżej %1$d nie są zalecane</string>
+  <string name="spen_subcat_title">Rysik</string>
+  <string name="spen_power_save_title_head">Tryb oszczędzania energii</string>
+  <string name="spen_power_save_summary_head">Wyłącz obsługę rysika gdy jest on w urządzeniu</string>
+  <string name="touchwake_title">Wybudzanie dotykiem</string>
+  <string name="touchwake_enable_title">Włącz</string>
+  <string name="touchwake_enable_summary">Obudź urządzenie przez dotknięcie ekranu krótko po jego wygaszeniu</string>
+  <string name="touchwake_timeout_title">Limit czasu</string>
+  <string name="touchwake_timeout_summary">Ustaw limit czasu dla wybudzania dotykiem</string>
 </resources>
