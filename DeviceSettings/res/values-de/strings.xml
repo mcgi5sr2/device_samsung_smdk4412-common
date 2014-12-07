@@ -62,5 +62,7 @@
   <string name="spen_power_save_title_head">Energiesparmodus</string>
   <string name="touchwake_title">Wecken durch Berührung</string>
   <string name="touchwake_enable_title">Aktivieren</string>
+  <string name="touchwake_enable_summary">Bei Berührung des Bildschirms, kurz nach seinem Ausschalten, Gerät aufwecken</string>
   <string name="touchwake_timeout_title">Timeout</string>
+  <string name="touchwake_timeout_summary">Zeit für Aufwecken auf Berührung festlegen</string>
 </resources>

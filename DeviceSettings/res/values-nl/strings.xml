@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Geavanceerde instellingen</string>
   <string name="defaults_button">Standaardwaarden</string>
+  <string name="kernel_does_not_support">Kernel ondersteunt geen</string>
   <string name="category_screen_title">Scherm</string>
   <string name="screen_colors_title">Kleuren</string>
   <string name="cabc_title_head">Inhoud (CABC)</string>
@@ -61,4 +62,9 @@
   <string name="spen_subcat_title">S-Pen</string>
   <string name="spen_power_save_title_head">Energiespaarstand</string>
   <string name="spen_power_save_summary_head">Stylusdigitizer uitschakelen indien S-Pen in het apparaat zit</string>
+  <string name="touchwake_title">Touchwake</string>
+  <string name="touchwake_enable_title">Inschakelen</string>
+  <string name="touchwake_enable_summary">Wek apparaat na schermaanraking vlak na ingaan slaapstand</string>
+  <string name="touchwake_timeout_title">Time-out</string>
+  <string name="touchwake_timeout_summary">Stel time-out voor touchwake in</string>
 </resources>
