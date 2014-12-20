@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Paramètres avancés</string>
   <string name="defaults_button">Réinitialiser</string>
+  <string name="kernel_does_not_support">Le kernel ne supporte pas cette fonction</string>
   <string name="category_screen_title">Écran</string>
   <string name="screen_colors_title">Couleurs</string>
   <string name="cabc_title_head">CABC</string>
@@ -61,4 +62,9 @@
   <string name="spen_subcat_title">S-Pen</string>
   <string name="spen_power_save_title_head">Mode d\'économie d\'énergie</string>
   <string name="spen_power_save_summary_head">Désactiver le numériseur de stylet lorsque le S-Pen est rangé</string>
+  <string name="touchwake_title">Toucher pour réveiller</string>
+  <string name="touchwake_enable_title">Activer</string>
+  <string name="touchwake_enable_summary">Réveiller l\'appareil en touchant l\'écran peu de temps après la veille</string>
+  <string name="touchwake_timeout_title">Expiration</string>
+  <string name="touchwake_timeout_summary">Définir le temps avant expiration de \"Toucher pour réveiller\"</string>
 </resources>

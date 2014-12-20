@@ -16,7 +16,8 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Configurações avançadas</string>
-  <string name="defaults_button">Restaurar para o padrão</string>
+  <string name="defaults_button">Resetar para o padrão</string>
+  <string name="kernel_does_not_support">Kernel não suporta</string>
   <string name="category_screen_title">Tela</string>
   <string name="screen_colors_title">Cores</string>
   <string name="cabc_title_head">CLAC</string>
@@ -27,8 +28,8 @@
   <string name="mdnie_mode_summary_head">Define o Modo mDNIe</string>
   <string name="mdnie_negative_title_head">Modo Negativo</string>
   <string name="mdnie_negative_summary_head">Ativar/Desativar cores invertidas</string>
-  <string name="led_subcat_title">Notificação com LED</string>
-  <string name="led_fade_title_head">Desvanecimento LED</string>
+  <string name="led_subcat_title">LED de notificação</string>
+  <string name="led_fade_title_head">Desvanecimento do LED</string>
   <string name="led_fade_summary_head">Ativar desvanecimento suave do LED em vez de piscar.</string>
   <string name="touchkey_subcat_title">Teclas sensíveis ao toque</string>
   <string name="touchkey_light_title_head">Luz de fundo</string>
@@ -39,7 +40,7 @@
   <string name="category_haptic_title">Resposta tátil</string>
   <string name="vibrator_title">Vibração</string>
   <string name="vibrator_tuning_title">Intensidade da vibração</string>
-  <string name="vibrator_tuning_summary_head">Ajusar a intensidade da resposta por vibração</string>
+  <string name="vibrator_tuning_summary_head">Ajustar a intensidade da resposta por vibração</string>
   <string name="vibrator_warning">Valores maiores que %1$d não são recomendados</string>
   <string name="category_radio_title">Rádio</string>
   <string name="hspa_title_head">HSPA</string>
@@ -49,7 +50,7 @@
   <string name="use_dock_audio_title_head">Usar áudio do Dock USB</string>
   <string name="use_dock_audio_summary_head">Usar a saída de áudio passiva no dock</string>
   <string name="incallaudio_subcat_title">Volume do áudio na ligação</string>
-  <string name="incall_earpiece_audio_title_head">Auscultador</string>
+  <string name="incall_earpiece_audio_title_head">Fone intra-auricular</string>
   <string name="incall_headphone_audio_title_head">Fone de ouvido</string>
   <string name="incall_speaker_audio_title_head">Alto falante</string>
   <string name="incall_bt_audio_title_head">Bluetooth</string>
@@ -61,4 +62,9 @@
   <string name="spen_subcat_title">S-Pen</string>
   <string name="spen_power_save_title_head">Modo de economia de energia</string>
   <string name="spen_power_save_summary_head">Desativar digitalizador stylus quando o S-Pen estiver dentro do dispositivo</string>
+  <string name="touchwake_title">Touchwake</string>
+  <string name="touchwake_enable_title">Ativar</string>
+  <string name="touchwake_enable_summary">Desperta o aparelho tocando na tela logo após ele dormir</string>
+  <string name="touchwake_timeout_title">Tempo limite esgotado</string>
+  <string name="touchwake_timeout_summary">Definir tempo limite para touchwake</string>
 </resources>
