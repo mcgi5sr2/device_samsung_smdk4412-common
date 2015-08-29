@@ -81,6 +81,9 @@ BOARD_USE_MALI_ALIGNMENT := true
 # HWC
 BOARD_USES_PROPRIETARY_HWC := true
 
+# dlmalloc
+MALLOC_IMPL := dlmalloc
+
 # FIMG Acceleration
 BOARD_USES_FIMGAPI := true
 BOARD_USES_SKIA_FIMGAPI := true
