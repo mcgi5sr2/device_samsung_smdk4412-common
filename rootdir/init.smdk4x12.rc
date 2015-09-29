@@ -1,10 +1,8 @@
 # Init for devices built on smdk4412 platform
 
 import /init.target.rc
+import /init.smdk4x12.power.rc
 import /init.smdk4x12.usb.rc
-
-on early-init
-    write /sys/block/mmcblk0/queue/scheduler noop
 
 on init
     chmod 0701 /mnt/media_rw
@@ -44,17 +42,9 @@ on fs
     chown radio system /efs
     chmod 0771 /efs
 
-on charger
-# CPU Frequency Governor
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor powersave
-
-# EHCI runtime enable for LPA
-    write /sys/devices/platform/s5p-ehci/power/control auto
-
 on post-fs
     swapon_all /fstab.smdk4x12
     write /proc/sys/vm/page-cluster 0
-
 
 on post-fs-data
      # we will remap this as /mnt/sdcard with the sdcard fuse tool
@@ -413,8 +403,6 @@ on post-fs-data
     setprop vold.post_fs_data_done 1
 
 on boot
-    mount debugfs /sys/kernel/debug /sys/kernel/debug
-
     setprop ro.build.product smdk4x12
     setprop ro.product.device smdk4x12
     setprop wifi.interface wlan0
@@ -449,9 +437,6 @@ on boot
 # wakeup keys
     chown radio system /sys/class/sec/sec_key/wakeup_keys
     write /sys/class/sec/sec_key/wakeup_keys 116,172
-
-on property:sys.boot_completed=1
-    write /sys/block/mmcblk0/queue/scheduler row
 
 # serial keyboard daemon
 service sec_keyboard /system/bin/sec_keyboard /dev/ttySAC2
@@ -544,16 +529,3 @@ service macloader /system/bin/macloader
     class main
     oneshot
 
-# Powersave
-on property:sys.perf.profile=0
-	write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor pegasusq
-	write /sys/devices/system/cpu/cpufreq/pegasusq/max_cpu_lock 2
-
-# Balanced
-on property:sys.perf.profile=1
-	write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor pegasusq
-	write /sys/devices/system/cpu/cpufreq/pegasusq/max_cpu_lock 0
-
-# Performance
-on property:sys.perf.profile=2
-	write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor performance
