@@ -39,8 +39,6 @@ on init
 on fs
     mkdir /preload
     mount_all /fstab.smdk4x12
-    swapon_all /fstab.smdk4x12
-
     setprop ro.crypto.fuse_sdcard true
 
     chown radio system /efs
@@ -52,6 +50,11 @@ on charger
 
 # EHCI runtime enable for LPA
     write /sys/devices/platform/s5p-ehci/power/control auto
+
+on post-fs
+    swapon_all /fstab.smdk4x12
+    write /proc/sys/vm/page-cluster 0
+
 
 on post-fs-data
      # we will remap this as /mnt/sdcard with the sdcard fuse tool
