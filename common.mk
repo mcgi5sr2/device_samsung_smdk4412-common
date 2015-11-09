@@ -83,6 +83,7 @@ PRODUCT_PACKAGES += \
     libfimg \
     libnetcmdiface \
     libsecion \
+    libstlport \
     libsync \
     libUMP \
     lights.exynos4 \
