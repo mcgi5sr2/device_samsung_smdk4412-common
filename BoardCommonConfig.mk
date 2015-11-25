@@ -114,9 +114,6 @@ BOARD_CANT_REALLOCATE_OMX_BUFFERS := true
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
 
-# Logging
-TARGET_USES_LOGD := false
-
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
   ifeq ($(WITH_DEXPREOPT),)
