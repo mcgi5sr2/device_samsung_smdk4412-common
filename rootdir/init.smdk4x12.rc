@@ -140,7 +140,6 @@ on post-fs-data
 # S-Pen
     chown system system /sys/class/sec/sec_epen/epen_saving_mode
     chmod 660 /sys/class/sec/sec_epen/epen_saving_mode
-    write /sys/class/sec/sec_epen/epen_saving_mode 1
     restorecon /sys/class/sec/sec_epen/epen_saving_mode
 
 # Permissions for LCD
@@ -387,6 +386,8 @@ on post-fs-data
     setprop vold.post_fs_data_done 1
 
 on boot
+    mount debugfs /sys/kernel/debug /sys/kernel/debug
+
     setprop ro.build.product smdk4x12
     setprop ro.product.device smdk4x12
     setprop wifi.interface wlan0
@@ -480,11 +481,6 @@ service dhcpcd_bt-pan /system/bin/dhcpcd -ABKL
     disabled
     oneshot
 
-service dhcpcd_eth0 /system/bin/dhcpcd -aABDKL
-    class late_start
-    disabled
-    oneshot
-
 service iprenew_wlan0 /system/bin/dhcpcd -n
     class main
     disabled
@@ -497,11 +493,6 @@ service iprenew_p2p /system/bin/dhcpcd -n
 
 service iprenew_bt-pan /system/bin/dhcpcd -n
     class main
-    disabled
-    oneshot
-
-service iprenew_eth0 /system/bin/dhcpcd -n
-    class late_start
     disabled
     oneshot
 
